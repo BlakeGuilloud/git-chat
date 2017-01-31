@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "git-chat",
+  "description": "Chrome extension",
+  "version": "1.0",
+  "browser_action": {
+   "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+   ]
+}
